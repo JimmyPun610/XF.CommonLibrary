@@ -1,0 +1,9 @@
+*.nupkg
+bin
+obj
+*.suo
+*.ide
+*.ide-shm
+*.ide-wal
+/nuget.exe
+/.vs/CommonLibrary/DesignTimeBuild/.dtbcache
