@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>XF.CommonLibrary</id>
+    <version>1.0.2.1</version>
+    <title>XF.CommonLibrary</title>
+    <authors>Jimmy Pun</authors>
+    <owners>Jimmy Pun</owners>
+  <licenseUrl>https://github.com/JimmyPun610/XF.CommonLibrary</licenseUrl>
+    <projectUrl>https://github.com/JimmyPun610/XF.CommonLibrary</projectUrl>
+    <iconUrl>https://banner2.kisspng.com/20180713/olo/kisspng-nuget-net-framework-package-manager-software-repo-nuget-5b487dc3ba81a7.452233091531477443764.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The library include some objects and methods which may be used frequently</description>
+    <releaseNotes>1.0.2.1 Bug fix</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>Xamarin Xamarin-Forms</tags>
+	   <dependencies>
+            <dependency id="Xamarin.Forms" version="[3.5.0.129452]" />
+			<dependency id="Acr.UserDialogs" version="7.0.1" />
+			<dependency id="Newtonsoft.Json" version="11.0" />
+			<dependency id="Xamarin.Essentials" version="1.0.1" />
+			<dependency id="XF.Material" version="1.3.1.1" />
+			<dependency id="Xamarin.FFImageLoading.Forms" version="2.4.4.859" />
+			<dependency id="Xam.Plugin.Iconize" version="[3.5.0.112]" />
+			<dependency id="Xam.Plugin.Iconize.FontAwesome" version="[3.5.0.112]" />
+			<dependency id="Xam.Plugin.Iconize.Material" version="[3.5.0.112]" />
+			<dependency id="Xam.Plugin.Iconize.Ionicons" version="[3.5.0.112]" />
+        </dependencies>
+	
+  </metadata>
+  <files>
+    <!-- Cross-platform reference assemblies -->
+    <file src="..\bin\Release\netstandard2.0\*.dll" target="lib\netstandard2.0" />
+</files>
+</package>
