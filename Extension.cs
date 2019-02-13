@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CommonLibrary
+namespace XF.CommonLibrary
 {
     public static class Extension
     {

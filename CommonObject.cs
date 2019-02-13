@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Essentials;
 
-namespace CommonLibrary
+namespace XF.CommonLibrary
 {
     public class CommonObject
     {

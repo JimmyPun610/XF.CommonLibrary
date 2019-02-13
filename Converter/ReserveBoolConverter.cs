@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Text;
 using Xamarin.Forms;
 
-namespace CommonLibrary.Converter
+namespace XF.CommonLibrary.Converter
 {
     public class ReserveBoolConverter : IValueConverter
     {

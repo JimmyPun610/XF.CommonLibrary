@@ -5,7 +5,7 @@ using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 
-namespace CommonLibrary
+namespace XF.CommonLibrary
 {
     public class CommonMethod
     {

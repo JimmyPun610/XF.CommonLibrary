@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28407.52
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonLibrary", "CommonLibrary.csproj", "{CB46F8A9-CE1F-496E-85C1-893F99BB5E2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XF.CommonLibrary", "XF.CommonLibrary.csproj", "{CB46F8A9-CE1F-496E-85C1-893F99BB5E2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
