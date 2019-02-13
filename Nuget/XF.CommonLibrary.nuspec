@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>XF.CommonLibrary</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>XF.CommonLibrary</title>
     <authors>Jimmy Pun</authors>
     <owners>Jimmy Pun</owners>
@@ -11,7 +11,7 @@
     <iconUrl>https://banner2.kisspng.com/20180713/olo/kisspng-nuget-net-framework-package-manager-software-repo-nuget-5b487dc3ba81a7.452233091531477443764.jpg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The library include some objects and methods which may be used frequently</description>
-    <releaseNotes>1.0 Initial commit</releaseNotes>
+    <releaseNotes>1.0.1 Updated namespace</releaseNotes>
     <copyright>Copyright 2019</copyright>
     <tags>Xamarin Xamarin-Forms</tags>
 	   <dependencies>
