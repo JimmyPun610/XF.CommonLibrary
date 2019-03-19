@@ -8,7 +8,8 @@ namespace XF.CommonLibrary
     {
         Dev = 0,
         Uat = 1,
-        Training = 2,
+        Demo = 2,
+        Training = 3,
         Pro = 4
     }
     public enum AppLanguage
