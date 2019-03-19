@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,16 @@ namespace XF.CommonLibrary
 {
     public static class Extension
     {
+
+        public static string ValidateBase64String(this string originalBase64Str)
+        {
+            //Make the base64 string to valid format
+            int addonSuffix = originalBase64Str.Length % 4;
+            if (addonSuffix != 0)
+                originalBase64Str = originalBase64Str.PadRight(originalBase64Str.Length + (4 - addonSuffix), '=');
+            return originalBase64Str;
+        }
+
         public static T Clone<T>(this T obj)
         {
             return JsonConvert.DeserializeObject<T>(JsonConvert.SerializeObject(obj));
