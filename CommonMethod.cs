@@ -16,9 +16,12 @@ namespace XF.CommonLibrary
                 || device == "iPhone11,8"   //Iphone XR
                 || device == "iPhone11,2"   //Iphone XS
                 || device == "iPhone11,4" || device == "iPhone11,6" //Iphone XS Max
+                || device == "iPhone12,1" //Iphone 11
+                || device == "iPhone12,3" //Iphone 11 Pro
+                || device == "iPhone12,5" //Iphone 11 Pro Max
                 || device == "iPhone X Simulator");
         }
-
+        [Obsolete("Xamarin have their own mechanism now")]
         public static Thickness GetSafeAreaPaddingiOSX(Xamarin.Forms.Page page)
         {
             if (CommonMethod.CheckIsIphoneX())
